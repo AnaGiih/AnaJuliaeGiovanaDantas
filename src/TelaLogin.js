@@ -4,8 +4,8 @@ import {View, Text, InputText, StyleSheet} from 'react-native';
 const FlexDimensionsBasic =() => {
     return (
         <View style = {{ flex : 1}}>
-            <view style = {{ flex : 1, backgroundColor: 'pink'}} />
-            <text style = {StyleSheet.heading}> Tela Login</text>
+            <View style = {{ flex : 1, backgroundColor: 'pink'}} />
+            <Text style = {StyleSheet.heading}> Tela Login</Text>
         </View>
     );
 };
